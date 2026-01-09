@@ -33,7 +33,7 @@ Keep only spots within tissue (`in_tissue == 1`) to exclude background noise.
 Normalize total counts and apply log1p transformation for downstream analysis.
 
 ### 4. Highly Variable Genes
-Select top 2,000 most variable genes using Seurat flavor.
+Select top 2,000 most variable genes using Seurat.
 
 ### 5. Dimensionality Reduction
 Apply PCA to compress data while retaining variance.
